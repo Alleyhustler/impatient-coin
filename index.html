@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impatient Coin</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="images/Testo del paragrafo (3).png" style="width:50px;border-radius:6px;" alt="Rick Logo">
+                Impatient The Coin
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="https://x.com/impatientcoin" rel="noreferrer, noopener" target="blank_"> <img src="images/x-icon-svg.svg">Twitter</a></li>
+                <li><a href="https://x.com/impatientcoin" rel="noreferrer, noopener" target="blank_">Buy Impatient</a></li>
+                <!-- CTA Button for Mobile Menu -->
+                <li class="cta-mobile">
+                    <a href="https://x.com/impatientcoin" rel="noreferrer, noopener" target="blank_" class="btn"><img src="">Trade $impatient on Bonk</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cta">
+            <a href="https://x.com/impatientcoin" rel="noreferrer, noopener" target="blank_" class="btn"><img src="">Trade $impatient on Bonk</a>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section with Video Background -->
+        <section id="home" class="video-background">
+            <!-- Video Element -->
+            <video autoplay="" muted="" loop="" playsinline="" class="bg-video">
+                <source src="media/38270-415950888_medium.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Rickzone Overlay -->
+            <div class="rickzone">
+                <div class="bubble">
+                    <h1>
+                        <span id="typed"></span>
+                    </h1>
+                </div>
+            <div class="rick">
+                <img src="images/Testo del paragrafo (3).png" alt="Rick">
+            </div>
+            </div>
+        </section>
+        <!-- Add more sections as needed -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom">
+            © 2024 impatient. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Typed.js Library -->
+    <script src="js/typed.umd.js"></script>
+
+    <!-- Typed.js Library -->
+    <script src="js/typed.umd.js"></script>
+
+    <!-- Typed.js Configuration -->
+    <script>
+        var typed = new Typed('#typed', {
+            strings: [
+                "Just buy me what are you thinking about???",
+                "I swear bonk it's taking his time to reaching ATH",
+                "No one’s watching, but I can feel their eyes. Always.",
+                "CA HERE",
+            ],
+            typeSpeed: 40,
+            backSpeed: 10,
+            startDelay: 100,
+            loop: true,
+            fadeOutClass: 'typed-fade-out',
+            contentType: 'html', // Enables HTML parsing for <br>
+        });
+    </script>
+
+    <!-- Burger Menu JavaScript -->
+    <script>
+        const burger = document.querySelector('.burger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        burger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            burger.classList.toggle('toggle');
+        });
+    </script>
+
+
+</body></html>
